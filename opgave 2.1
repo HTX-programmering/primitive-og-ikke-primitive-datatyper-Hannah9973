@@ -1,0 +1,40 @@
+hvor meget fylder de primitive datatyper i bytes. (1 byte = 8 bits)
+
+
+integer eller Int:
+bliver brugt til at bevarer variabler. hvis det er større eller mindre variabler (altså mindre/større tal)
+end dens limit så kan man ikke bruge det... den fylder 4 bytes og har en default value på 0.
+dens maximuns værdi er 2^31, og dens minimums værdi er -2^31
+
+float:
+bliver brugt til at bevare decimal tal. dens default value er 0. Den fylder 4 bytes
+og har en uenlig værdirække. så der er ikke nogen maximum eller minumum.
+
+character eller char:
+bliver brugt til at bevare single value værdier. dens default value er '\u0000' og dens maximum er '\uffff'
+og fylder 2 bytes.
+
+boolean:
+den kan kun have to værdien. 'true' eller 'false'. dens deafult value er 'false' 
+den fylder 1 byte
+
+byte:
+den fylder 1 byte (den har 8 bits inde i sig). dens dens maximums værdi er 127 og dens minimums værdi er -128
+husk 0 tæller med.
+den bliver brugt ligesom integer men er bare mindre. den har ikke samme størrelses rækkevidde.
+
+Short:
+den er også lidt ligesom integer, den er bare 2 gange mindre. dens minimun værdi er -32,768
+og dens maximum er 32,767. 
+den fylder 2 bytes.... det fandt jeg ud af ved at tage 2^15 det giver 32767, som er det samme som max og min. værdierne
+det betyder at der er 15 bits og den ene bit er 0 det er derfor man kun opløfter i 15.
+
+long:
+den bliver brugt til at bevarer store numeriske datatyper fx større og længere end integer datatype
+. det er en 64 bit ingeger, det vil så sige den er 8 byte.
+dens min og max værdi er -2^63 og 2^63
+
+double:
+den ligner en float. dog har en double 'two bit precision' istedet for en som float har.
+dens min og max værdi er -2^31 og 2^31-1
+den fylder 8 bytes, siden en float er 4 og en double er det dobblete af en float.
